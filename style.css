@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+background-image:url(https://images.unsplash.com/photo-1688505872557-d6e44609b847?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=677&q=80);
+background-repeat: no-repeat;
+background-size: cover;
+font-family: Arial, Helvetica, sans-serif;
+color:#9F73AB;
+font-size: 30px;
+line-height: 1.6;
+text-align: center;
+}
+
+h1{
+color: #624F82;
+font-family: 'Times New Roman', Times, serif;
+font-size:60;
+line-height:1,9;
+}
+
+h2{
+color: #3F3B6C;
+font-family: 'Times New Roman', Times, serif;
+font-size:50px;
+line-height:1.8;
+}
+
+h3{
+color: #3F3B6C;
+font-family: 'Times New Roman', Times, serif;
+font-size: 40px;
+line-height:1.7;
+}
+
+a{
+color: #00235B;
+text-decoration: none;
+padding: 15px;
+border-radius: 5px;
+box-shadow: 0 0 16px rgba(0,0,0,0.1)
+}
+
+a:hover {
+  color: #f00;
+  background-color : #964A4A;
+  transition: 0.3s ease;
+}
+
+
+.container {
+width: 100%;
+max-width: 1500px; /* to ensure the content is not too wide */
+margin: 0 auto; /* centers the content */
+padding: 20px;
+width: 1500px;
+margin: 0 auto;
+}
+
+.card {
+display: block;
+background: white;                         /* White background */
+padding: 30px;                             /* Internal space */
+border-radius: 20px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+max-width: 100%;        /* Set the width */
+margin-bottom: 15px;
+margin: 15px;
+}
+
+#profile-pic {
+border-radius: 50%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* réduit espace entre icones */
+}
+ul li {
+  margin-right: 20px; /* add a right margin to each li element */
+}
+ul li a i {
+  font-size: 24px; /* new */
+}
