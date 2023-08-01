@@ -84,7 +84,7 @@ ul li a i {
   font-size: 24px; /* new */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   body {
     font-size: 20px;
   }
