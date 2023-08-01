@@ -84,7 +84,7 @@ ul li a i {
   font-size: 24px; /* new */
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
   body {
     font-size: 20px;
   }
@@ -105,7 +105,7 @@ ul li a i {
   }
 
   .container {
-    max-width: 90%;
+    max-width: 300px;
     padding: 10px;
   }
 
