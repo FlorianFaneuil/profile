@@ -83,3 +83,8 @@ ul li {
 ul li a i {
   font-size: 24px; /* new */
 }
+
+@media screen and (max-width: 768px) {
+  .card {
+    max-width: 90%;
+  }
