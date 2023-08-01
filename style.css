@@ -85,6 +85,35 @@ ul li a i {
 }
 
 @media screen and (max-width: 768px) {
-  .card {
-    max-width: 90%;
+  body {
+    font-size: 20px;
   }
+
+  h1 {
+    font-size: 40px;
+    line-height: 1.6;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 1.6;
+  }
+
+  h3 {
+    font-size: 25px;
+    line-height: 1.6;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  ul li {
+    margin-right: 10px;
+  }
+
+  ul li a i {
+    font-size: 20px;
+  }
+}
